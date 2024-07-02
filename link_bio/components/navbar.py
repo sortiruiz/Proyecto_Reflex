@@ -22,7 +22,7 @@ def navbar() -> rx.Component:
         ),
                 float_button(
                     #AHORA TENGO DOS PARAMETROS QUE INDICAR 
-                    icon = rx.image(src="/icons/donate.svg"),
+                    icon = rx.image(src="/iconns/donate.svg"),
                     href = constants.COFFE_URL
                 ),
                 position="sticky",
