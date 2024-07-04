@@ -11,4 +11,4 @@ unzip  frontend.zip -d public #esto me lo unzipea a public
 rm -f frontend.zip #me borra el zip
 
 deactivate
-#rd frontend.zip
+#rd frontend.zip5
