@@ -1,7 +1,8 @@
 cd link_bio
 python -m venv .venv
 source .venv/bin/activate
-pip install -r ./requirements.txt
+pip install --upgrade pip
+pip install -r requirements.txt
 reflex init 
 API_URL=https://sortiruiz-web.up.railway.app reflex export --frontend-only #me exporta la parte estatica 
 
