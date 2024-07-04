@@ -3,7 +3,7 @@ name: Static Build
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     if: github.repository == 'sortiruiz/Proyecto_Reflex'
